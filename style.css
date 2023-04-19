@@ -2,6 +2,47 @@ body {
     background-color: #f5f5f5;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
+
+input{
+    width: 95%;
+    height: 22px;
+    padding: 0.93rem;
+    font-size: 1.25rem;
+    border-radius: 5px;
+    border: 0;
+    margin: 10px;
+}
+
+input:focus{
+    outline: none;
+    box-shadow: 0 0 10px #009E9E;
+}
+
+a {
+    color: #E9E9E9;
+    font-size: 1rem;
+}
+
+button{
+    margin-top: 1.25rem;
+
+    width: 100%;
+    padding: 0.93rem 2rem;
+
+    color: #006A6A;
+    background-color: #CCCCCC;
+        
+    font-size: 1rem;
+
+    border-radius: 4px;
+    border: none;
+
+    cursor: pointer;
+}
+button:hover{
+    background-color: #E9E9E9;
+}
+
 .container {
     background-color: #E9E9E9;
     margin: auto;
@@ -13,7 +54,7 @@ body {
     overflow: hidden;
 }
 .header{
-    padding: 2.5rem;
+    padding: 0.93rem;
 }
 .flex-container {
     display: flex;
@@ -60,27 +101,18 @@ body {
     font-style: italic;
     margin-left: 0.93rem;
 }
-.button{
-    margin-top: 1.25rem;
 
-    width: 100%;
-    padding: 0.93rem 2rem;
-
-    color: #006A6A;
-    background-color: #CCCCCC;
-        
-    font-size: 1rem;
-
-    border-radius: 4px;
-    border: none;
-
-    cursor: pointer;
-}
-.button:hover{
-    background-color: #E9E9E9;
-}
 .image-group {
 text-align: center;
+}
+
+.form-registro{
+    background-color: #006A6A;
+    padding: 1.2rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    align-content: space-around;
 }
 
 @media screen and (max-width: 620px){ 
@@ -97,6 +129,9 @@ text-align: center;
     .container{
         width: 95%;
     }
-
+    .header{
+        padding: 15px;
+    }
 }
+
 
